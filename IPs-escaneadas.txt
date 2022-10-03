@@ -1,0 +1,54 @@
+
+Starting Nmap 7.40 ( https://nmap.org ) at 2022-09-04 03:34 CDT
+Nmap scan report for 192.168.100.2
+Host is up (0.00079s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 08:00:27:3B:96:EF (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 192.168.100.3
+Host is up (0.00081s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+53/tcp open  domain
+80/tcp open  http
+MAC Address: 08:00:27:9C:DA:C6 (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 192.168.100.4
+Host is up (0.00082s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 08:00:27:DD:FA:20 (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 192.168.100.1
+Host is up (0.00084s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 08:00:27:AC:DF:2A (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 192.168.100.11
+Host is up (0.00086s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+MAC Address: 08:00:27:24:B7:74 (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 192.168.100.18
+Host is up (0.00080s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 08:00:27:68:75:7A (Oracle VirtualBox virtual NIC)
+
+Nmap done: 6 IP addresses (6 hosts up) scanned in 203.30 seconds

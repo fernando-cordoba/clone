@@ -1,0 +1,364 @@
+
+-*-*-*-*-*-*-*---*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*--*
+Host:
+root
+
+IP
+192.168.100.2 
+
+Info about memory:
+              total        used        free      shared  buff/cache   available
+Mem:         509424       49268      367340        2620       92816      444276
+Swap:        522236           0      522236
+
+Info about disk:
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+udev             241M      0  241M   0% /dev
+tmpfs             50M   2.4M   48M   5% /run
+/dev/sda1        9.7G   918M  8.3G  10% /
+tmpfs            249M      0  249M   0% /dev/shm
+tmpfs            5.0M      0  5.0M   0% /run/lock
+tmpfs            249M      0  249M   0% /sys/fs/cgroup
+tmpfs             50M      0   50M   0% /run/user/1000
+tmpfs             50M      0   50M   0% /run/user/0
+
+Logged users:
+fernando tty1         2022-10-02 15:19
+root     pts/0        2022-10-02 18:50 (192.168.100.10)
+
+Active process:
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  1.1   9492  6076 ?        Ss   15:14   0:02 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    15:14   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        S<   15:14   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    15:14   0:00 [ksoftirqd/0]
+root         7  0.0  0.0      0     0 ?        S    15:14   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    15:14   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    15:14   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S<   15:14   0:00 [lru-add-drain]
+root        11  0.0  0.0      0     0 ?        S    15:14   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    15:14   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    15:14   0:00 [kdevtmpfs]
+root        14  0.0  0.0      0     0 ?        S<   15:14   0:00 [netns]
+root        15  0.0  0.0      0     0 ?        S    15:14   0:00 [khungtaskd]
+root        16  0.0  0.0      0     0 ?        S    15:14   0:00 [oom_reaper]
+root        17  0.0  0.0      0     0 ?        S<   15:14   0:00 [writeback]
+root        18  0.0  0.0      0     0 ?        S    15:14   0:00 [kcompactd0]
+root        19  0.0  0.0      0     0 ?        SN   15:14   0:00 [ksmd]
+root        21  0.0  0.0      0     0 ?        S<   15:14   0:00 [crypto]
+root        22  0.0  0.0      0     0 ?        S<   15:14   0:00 [kintegrityd]
+root        23  0.0  0.0      0     0 ?        S<   15:14   0:00 [bioset]
+root        24  0.0  0.0      0     0 ?        S<   15:14   0:00 [kblockd]
+root        25  0.0  0.0      0     0 ?        S<   15:14   0:00 [devfreq_wq]
+root        26  0.0  0.0      0     0 ?        S<   15:14   0:00 [watchdogd]
+root        27  0.0  0.0      0     0 ?        S    15:14   0:00 [kswapd0]
+root        28  0.0  0.0      0     0 ?        S<   15:14   0:00 [vmstat]
+root        40  0.0  0.0      0     0 ?        S<   15:14   0:00 [kthrotld]
+root        41  0.0  0.0      0     0 ?        S<   15:14   0:00 [kworker/0:1H]
+root        42  0.0  0.0      0     0 ?        S<   15:14   0:00 [ipv6_addrconf]
+root        75  0.0  0.0      0     0 ?        S<   15:14   0:00 [ata_sff]
+root        83  0.0  0.0      0     0 ?        S    15:14   0:00 [kworker/u2:1]
+root        95  0.0  0.0      0     0 ?        S    15:14   0:00 [scsi_eh_0]
+root        96  0.0  0.0      0     0 ?        S<   15:14   0:00 [scsi_tmf_0]
+root        97  0.0  0.0      0     0 ?        S    15:14   0:00 [scsi_eh_1]
+root        98  0.0  0.0      0     0 ?        S<   15:14   0:00 [scsi_tmf_1]
+root        99  0.0  0.0      0     0 ?        S    15:14   0:00 [kworker/u2:2]
+root       100  0.0  0.0      0     0 ?        S    15:14   0:00 [scsi_eh_2]
+root       101  0.0  0.0      0     0 ?        S<   15:14   0:00 [scsi_tmf_2]
+root       103  0.0  0.0      0     0 ?        S<   15:14   0:00 [bioset]
+root       104  0.0  0.0      0     0 ?        S<   15:14   0:00 [bioset]
+root       129  0.0  0.0      0     0 ?        S<   15:14   0:00 [kworker/u3:0]
+root       140  0.0  0.0      0     0 ?        S    15:14   0:00 [jbd2/sda1-8]
+root       141  0.0  0.0      0     0 ?        S<   15:14   0:00 [ext4-rsv-conver]
+root       172  0.0  0.9  24668  4752 ?        Ss   15:14   0:01 /lib/systemd/systemd-journald
+root       175  0.0  0.0      0     0 ?        S    15:14   0:00 [kauditd]
+root       203  0.0  0.6  14952  3432 ?        Ss   15:14   0:00 /lib/systemd/systemd-udevd
+root       229  0.0  0.0      0     0 ?        S<   15:14   0:00 [ttm_swap]
+systemd+   285  0.0  0.8  16868  4160 ?        Ssl  15:14   0:00 /lib/systemd/systemd-timesyncd
+root       310  0.0  0.8   7444  4584 ?        Ss   15:14   0:00 /lib/systemd/systemd-logind
+message+   311  0.0  0.7   6260  3772 ?        Ss   15:14   0:00 /usr/bin/dbus-daemon --system --add
+root       320  0.0  0.5  22636  3008 ?        Ssl  15:14   0:00 /usr/sbin/rsyslogd -n
+root       324  0.0  0.5   5224  2696 ?        Ss   15:14   0:00 /usr/sbin/cron -f
+root       370  0.0  0.8   6076  4116 ?        Ss   15:14   0:00 /usr/sbin/apache2 -k start
+www-data   371  0.0  0.7 228704  3708 ?        Sl   15:14   0:04 /usr/sbin/apache2 -k start
+www-data   372  0.0  0.7 228704  3708 ?        Sl   15:14   0:04 /usr/sbin/apache2 -k start
+root       427  0.0  1.5  14192  8048 ?        Ss   15:14   0:00 /usr/sbin/dhcpd -4 -q -cf /etc/dhcp
+root       521  0.0  0.6   4616  3432 tty1     Ss   15:19   0:00 /bin/login --
+fernando   526  0.0  0.9   9476  4884 ?        Ss   15:19   0:00 /lib/systemd/systemd --user
+fernando   528  0.0  0.2  10480  1068 ?        S    15:19   0:00 (sd-pam)
+fernando   530  0.0  0.6   5672  3368 tty1     S    15:19   0:00 -bash
+root       535  0.0  0.6   6148  3360 tty1     S    15:19   0:00 su -
+root       536  0.0  0.6   5664  3560 tty1     S+   15:19   0:00 -su
+root       568  0.0  1.1  10496  5932 ?        Ss   15:42   0:00 /usr/sbin/sshd -D
+root       843  0.0  0.0      0     0 ?        S    18:13   0:00 [kworker/0:0]
+root       853  0.0  0.0      0     0 ?        S    18:44   0:00 [kworker/0:1]
+root       855  0.0  0.0      0     0 ?        S    18:49   0:00 [kworker/0:2]
+root       856  0.0  1.2  11088  6284 ?        Ss   18:50   0:00 sshd: root@pts/0
+root       858  0.0  0.9   9196  4868 ?        Ss   18:50   0:00 /lib/systemd/systemd --user
+root       859  0.0  0.2  10480  1072 ?        S    18:50   0:00 (sd-pam)
+root       865  0.0  0.5   5220  2780 pts/0    Ss+  18:50   0:00 bash -c  echo Host: whoami echo  ec
+root       871  0.0  0.6   7668  3320 pts/0    R+   18:50   0:00 ps aux
+
+UDP Conections:
+Recv-Q Send-Q        Local Address:Port                         Peer Address:Port                
+TCP Conections:
+State      Recv-Q Send-Q   Local Address:Port                    Peer Address:Port                
+ESTAB      0      156      192.168.100.2:ssh                   192.168.100.10:59084                
+
+route:
+default via 192.168.100.1 dev enp0s3 onlink 
+192.168.100.0/24 dev enp0s3 proto kernel scope link src 192.168.100.2 
+
+DHCP Address:
+
+IP range address:
+cat: /etc/dhcp/dhcp.conf: No existe el fichero o el directorio
+
+Address assigned:
+
+Oct  2 18:49:29 debian dhcpd[427]: DHCPACK on 192.168.100.11 to 08:00:27:24:b7:74 via enp0s3
+Oct  2 18:50:04 debian dhcpd[427]: DHCPACK on 192.168.100.4 to 08:00:27:dd:fa:20 via enp0s3
+
+
+-*-*-*-*-*-*-*---*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*--*
+Host:
+root
+
+IP
+192.168.100.3 
+
+Info about memory:
+              total        used        free      shared  buff/cache   available
+Mem:         509456       65868      346012        4568       97576      425788
+Swap:        522236           0      522236
+
+Info about disk:
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+udev             241M      0  241M   0% /dev
+tmpfs             50M   4.3M   46M   9% /run
+/dev/sda1        9.7G  1001M  8.3G  11% /
+tmpfs            249M      0  249M   0% /dev/shm
+tmpfs            5.0M      0  5.0M   0% /run/lock
+tmpfs            249M      0  249M   0% /sys/fs/cgroup
+tmpfs             50M      0   50M   0% /run/user/1000
+tmpfs             50M      0   50M   0% /run/user/0
+
+Logged users:
+fernando tty1         2022-10-02 15:20
+root     pts/0        2022-10-02 18:50 (192.168.100.10)
+
+Active process:
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  1.1   9428  6044 ?        Ss   15:14   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    15:14   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        S<   15:14   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    15:14   0:00 [ksoftirqd/0]
+root         7  0.0  0.0      0     0 ?        S    15:14   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    15:14   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    15:14   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S<   15:14   0:00 [lru-add-drain]
+root        11  0.0  0.0      0     0 ?        S    15:14   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    15:14   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    15:14   0:00 [kdevtmpfs]
+root        14  0.0  0.0      0     0 ?        S<   15:14   0:00 [netns]
+root        15  0.0  0.0      0     0 ?        S    15:14   0:00 [khungtaskd]
+root        16  0.0  0.0      0     0 ?        S    15:14   0:00 [oom_reaper]
+root        17  0.0  0.0      0     0 ?        S<   15:14   0:00 [writeback]
+root        18  0.0  0.0      0     0 ?        S    15:14   0:00 [kcompactd0]
+root        19  0.0  0.0      0     0 ?        SN   15:14   0:00 [ksmd]
+root        21  0.0  0.0      0     0 ?        S<   15:14   0:00 [crypto]
+root        22  0.0  0.0      0     0 ?        S<   15:14   0:00 [kintegrityd]
+root        23  0.0  0.0      0     0 ?        S<   15:14   0:00 [bioset]
+root        24  0.0  0.0      0     0 ?        S<   15:14   0:00 [kblockd]
+root        25  0.0  0.0      0     0 ?        S<   15:14   0:00 [devfreq_wq]
+root        26  0.0  0.0      0     0 ?        S<   15:14   0:00 [watchdogd]
+root        27  0.0  0.0      0     0 ?        S    15:14   0:00 [kswapd0]
+root        28  0.0  0.0      0     0 ?        S<   15:14   0:00 [vmstat]
+root        40  0.0  0.0      0     0 ?        S<   15:14   0:00 [kthrotld]
+root        41  0.0  0.0      0     0 ?        S<   15:14   0:00 [kworker/0:1H]
+root        42  0.0  0.0      0     0 ?        S<   15:14   0:00 [ipv6_addrconf]
+root        82  0.0  0.0      0     0 ?        S<   15:14   0:00 [ata_sff]
+root        83  0.0  0.0      0     0 ?        S    15:14   0:00 [kworker/u2:1]
+root        95  0.0  0.0      0     0 ?        S    15:14   0:00 [scsi_eh_0]
+root        96  0.0  0.0      0     0 ?        S<   15:14   0:00 [scsi_tmf_0]
+root        97  0.0  0.0      0     0 ?        S    15:14   0:00 [scsi_eh_1]
+root        98  0.0  0.0      0     0 ?        S<   15:14   0:00 [scsi_tmf_1]
+root        99  0.0  0.0      0     0 ?        S    15:14   0:00 [scsi_eh_2]
+root       100  0.0  0.0      0     0 ?        S<   15:14   0:00 [scsi_tmf_2]
+root       101  0.0  0.0      0     0 ?        S    15:14   0:00 [kworker/u2:2]
+root       103  0.0  0.0      0     0 ?        S<   15:14   0:00 [bioset]
+root       104  0.0  0.0      0     0 ?        S<   15:14   0:00 [bioset]
+root       129  0.0  0.0      0     0 ?        S<   15:14   0:00 [kworker/u3:0]
+root       140  0.0  0.0      0     0 ?        S    15:14   0:00 [jbd2/sda1-8]
+root       141  0.0  0.0      0     0 ?        S<   15:14   0:00 [ext4-rsv-conver]
+root       170  0.0  0.9  24668  4712 ?        Ss   15:14   0:02 /lib/systemd/systemd-journald
+root       175  0.0  0.0      0     0 ?        S    15:14   0:00 [kauditd]
+root       199  0.0  0.6  15080  3292 ?        Ss   15:14   0:00 /lib/systemd/systemd-udevd
+root       236  0.0  0.0      0     0 ?        S<   15:14   0:00 [ttm_swap]
+systemd+   281  0.0  0.7  16868  3888 ?        Ssl  15:14   0:00 /lib/systemd/systemd-timesyncd
+root       300  0.0  0.5  22636  2796 ?        Ssl  15:14   0:00 /usr/sbin/rsyslogd -n
+root       301  0.0  0.5   5224  2744 ?        Ss   15:14   0:00 /usr/sbin/cron -f
+message+   302  0.0  0.7   6260  3704 ?        Ss   15:14   0:00 /usr/bin/dbus-daemon --system --add
+root       316  0.0  0.9   7444  4616 ?        Ss   15:14   0:00 /lib/systemd/systemd-logind
+root       334  0.0  0.5   8128  2664 ?        Ss   15:14   0:00 /sbin/dhclient -4 -v -pf /run/dhcli
+bind       352  0.0  5.7  97404 29512 ?        Ssl  15:14   0:06 /usr/sbin/named -f -u bind
+root       362  0.0  0.6   4616  3380 tty1     Ss   15:14   0:00 /bin/login --
+root       376  0.0  1.1  10496  5960 ?        Ss   15:14   0:00 /usr/sbin/sshd -D
+root       384  0.0  0.8   6076  4252 ?        Ss   15:14   0:00 /usr/sbin/apache2 -k start
+www-data   386  0.0  0.7 228704  3916 ?        Sl   15:14   0:04 /usr/sbin/apache2 -k start
+www-data   389  0.0  0.7 228704  3916 ?        Sl   15:14   0:04 /usr/sbin/apache2 -k start
+fernando   537  0.0  1.1   9476  5936 ?        Ss   15:20   0:00 /lib/systemd/systemd --user
+fernando   539  0.0  0.2  10416  1076 ?        S    15:20   0:00 (sd-pam)
+fernando   541  0.0  0.6   5672  3516 tty1     S    15:20   0:00 -bash
+root       546  0.0  0.6   6148  3452 tty1     S    15:20   0:00 su -
+root       547  0.0  0.7   5668  3568 tty1     S+   15:20   0:00 -su
+root      1010  0.0  0.0      0     0 ?        S    18:24   0:00 [kworker/0:1]
+root      1046  0.0  0.0      0     0 ?        S    18:45   0:00 [kworker/0:2]
+root      1055  0.0  1.2  11088  6316 ?        Ss   18:50   0:00 sshd: root@pts/0
+root      1057  0.0  0.9   9200  4940 ?        Ss   18:50   0:00 /lib/systemd/systemd --user
+root      1058  0.0  0.2  10416  1084 ?        S    18:50   0:00 (sd-pam)
+root      1065  0.0  0.5   5220  2784 pts/0    Ss+  18:50   0:00 bash -c  echo Host: whoami echo  ec
+root      1071  0.0  0.6   7668  3240 pts/0    R+   18:50   0:00 ps aux
+
+UDP Conections:
+Recv-Q Send-Q        Local Address:Port                         Peer Address:Port                
+TCP Conections:
+State      Recv-Q Send-Q   Local Address:Port                    Peer Address:Port                
+ESTAB      0      0        192.168.100.3:ssh                   192.168.100.10:38452                
+
+route:
+default via 192.168.100.1 dev enp0s3 
+192.168.100.0/24 dev enp0s3 proto kernel scope link src 192.168.100.3 
+
+DNS Zones:
+cat: /etc/bind/name.conf.local: No existe el fichero o el directorio
+
+Translations:
+@	IN	SOA	zona1.org. root.zona1.org. (
+@	IN	NS	ns
+@	IN	A	192.168.100.4
+ns	IN	A	192.168.100.3
+www	IN	A	192.168.100.4
+@	IN	SOA	zona2.org. root.zona2.org. (
+@	IN	NS	ns
+@	IN	A	192.168.100.4
+ns	IN	A	192.168.100.3
+www	IN	A	192.168.100.4
+
+
+-*-*-*-*-*-*-*---*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*--*
+Host:
+root
+
+IP
+192.168.100.4 
+
+Info about memory:
+              total        used        free      shared  buff/cache   available
+Mem:         509552       43832      380980        1976       84740      450564
+Swap:        522236           0      522236
+
+Info about disk:
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+udev             241M      0  241M   0% /dev
+tmpfs             50M   1.8M   49M   4% /run
+/dev/sda1        9.7G   967M  8.3G  11% /
+tmpfs            249M      0  249M   0% /dev/shm
+tmpfs            5.0M      0  5.0M   0% /run/lock
+tmpfs            249M      0  249M   0% /sys/fs/cgroup
+tmpfs             50M      0   50M   0% /run/user/1000
+tmpfs             50M      0   50M   0% /run/user/0
+
+Logged users:
+fernando tty1         2022-10-02 15:20
+root     pts/0        2022-10-02 18:50 (192.168.100.10)
+
+Active process:
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  1.1   9460  6044 ?        Ss   15:15   0:03 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    15:15   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        S<   15:15   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S<   15:15   0:00 [kworker/0:1H]
+root         7  0.0  0.0      0     0 ?        S    15:15   0:00 [ksoftirqd/0]
+root         8  0.0  0.0      0     0 ?        S    15:15   0:00 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        S    15:15   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    15:15   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S<   15:15   0:00 [lru-add-drain]
+root        12  0.0  0.0      0     0 ?        S    15:15   0:00 [watchdog/0]
+root        13  0.0  0.0      0     0 ?        S    15:15   0:00 [cpuhp/0]
+root        14  0.0  0.0      0     0 ?        S    15:15   0:00 [kdevtmpfs]
+root        15  0.0  0.0      0     0 ?        S<   15:15   0:00 [netns]
+root        16  0.0  0.0      0     0 ?        S    15:15   0:00 [khungtaskd]
+root        17  0.0  0.0      0     0 ?        S    15:15   0:00 [oom_reaper]
+root        18  0.0  0.0      0     0 ?        S<   15:15   0:00 [writeback]
+root        19  0.0  0.0      0     0 ?        S    15:15   0:00 [kcompactd0]
+root        20  0.0  0.0      0     0 ?        SN   15:15   0:00 [ksmd]
+root        22  0.0  0.0      0     0 ?        S<   15:15   0:00 [crypto]
+root        23  0.0  0.0      0     0 ?        S<   15:15   0:00 [kintegrityd]
+root        24  0.0  0.0      0     0 ?        S<   15:15   0:00 [bioset]
+root        25  0.0  0.0      0     0 ?        S<   15:15   0:00 [kblockd]
+root        26  0.0  0.0      0     0 ?        S<   15:15   0:00 [devfreq_wq]
+root        27  0.0  0.0      0     0 ?        S<   15:15   0:00 [watchdogd]
+root        28  0.0  0.0      0     0 ?        S    15:15   0:00 [kswapd0]
+root        29  0.0  0.0      0     0 ?        S<   15:15   0:00 [vmstat]
+root        41  0.0  0.0      0     0 ?        S<   15:15   0:00 [kthrotld]
+root        42  0.0  0.0      0     0 ?        S<   15:15   0:00 [ipv6_addrconf]
+root        82  0.0  0.0      0     0 ?        S    15:15   0:00 [kworker/u2:1]
+root        85  0.0  0.0      0     0 ?        S<   15:15   0:00 [ata_sff]
+root        95  0.0  0.0      0     0 ?        S    15:15   0:00 [scsi_eh_0]
+root        96  0.0  0.0      0     0 ?        S<   15:15   0:00 [scsi_tmf_0]
+root        97  0.0  0.0      0     0 ?        S    15:15   0:00 [scsi_eh_1]
+root        98  0.0  0.0      0     0 ?        S<   15:15   0:00 [scsi_tmf_1]
+root        99  0.0  0.0      0     0 ?        S    15:15   0:00 [kworker/u2:2]
+root       100  0.0  0.0      0     0 ?        S    15:15   0:00 [scsi_eh_2]
+root       101  0.0  0.0      0     0 ?        S<   15:15   0:00 [scsi_tmf_2]
+root       103  0.0  0.0      0     0 ?        S<   15:15   0:00 [bioset]
+root       104  0.0  0.0      0     0 ?        S<   15:15   0:00 [bioset]
+root       130  0.0  0.0      0     0 ?        S<   15:15   0:00 [kworker/u3:0]
+root       141  0.0  0.0      0     0 ?        S    15:15   0:00 [jbd2/sda1-8]
+root       142  0.0  0.0      0     0 ?        S<   15:15   0:00 [ext4-rsv-conver]
+root       169  0.0  0.9  16472  4732 ?        Ss   15:15   0:00 /lib/systemd/systemd-journald
+root       174  0.0  0.0      0     0 ?        S    15:15   0:00 [kauditd]
+root       188  0.0  0.6  15080  3296 ?        Ss   15:15   0:00 /lib/systemd/systemd-udevd
+root       229  0.0  0.0      0     0 ?        S<   15:15   0:00 [ttm_swap]
+systemd+   287  0.0  0.7  16868  3880 ?        Ssl  15:15   0:00 /lib/systemd/systemd-timesyncd
+root       306  0.0  0.5  22636  2796 ?        Ssl  15:15   0:00 /usr/sbin/rsyslogd -n
+root       307  0.0  0.8   7444  4424 ?        Ss   15:15   0:00 /lib/systemd/systemd-logind
+root       315  0.0  0.5   5224  2728 ?        Ss   15:15   0:00 /usr/sbin/cron -f
+message+   316  0.0  0.7   6260  3764 ?        Ss   15:15   0:00 /usr/bin/dbus-daemon --system --add
+root       325  0.0  0.5   8128  2656 ?        Ss   15:15   0:00 /sbin/dhclient -4 -v -pf /run/dhcli
+root       345  0.0  0.6   4616  3300 tty1     Ss   15:15   0:00 /bin/login --
+root       367  0.0  0.8   6100  4308 ?        Ss   15:15   0:00 /usr/sbin/apache2 -k start
+www-data   369  0.0  0.7 228728  4040 ?        Sl   15:15   0:04 /usr/sbin/apache2 -k start
+www-data   370  0.0  0.7 228728  4040 ?        Sl   15:15   0:04 /usr/sbin/apache2 -k start
+fernando   475  0.0  0.9   9476  4932 ?        Ss   15:20   0:00 /lib/systemd/systemd --user
+fernando   476  0.0  0.2  10448  1040 ?        S    15:20   0:00 (sd-pam)
+fernando   478  0.0  0.7   5672  3616 tty1     S    15:20   0:00 -bash
+root       483  0.0  0.6   6148  3444 tty1     S    15:20   0:00 su -
+root       484  0.0  0.7   5664  3668 tty1     S+   15:20   0:00 -su
+root       598  0.0  1.1  10496  5908 ?        Ss   15:44   0:00 /usr/sbin/sshd -D
+root      1037  0.0  0.0      0     0 ?        S    18:35   0:00 [kworker/0:0]
+root      1054  0.0  0.0      0     0 ?        S    18:41   0:00 [kworker/0:2]
+root      1063  0.0  0.0      0     0 ?        S    18:46   0:00 [kworker/0:1]
+root      1072  0.0  1.2  11088  6292 ?        Ss   18:50   0:00 sshd: root@pts/0
+root      1074  0.0  0.9   9196  4952 ?        Ss   18:50   0:00 /lib/systemd/systemd --user
+root      1075  0.0  0.2  10448  1052 ?        S    18:50   0:00 (sd-pam)
+root      1081  0.0  0.5   5220  2832 pts/0    Ss+  18:50   0:00 bash -c  echo Host: whoami echo  ec
+root      1087  0.0  0.6   7668  3244 pts/0    R+   18:50   0:00 ps aux
+
+UDP Conections:
+Recv-Q Send-Q        Local Address:Port                         Peer Address:Port                
+TCP Conections:
+State      Recv-Q Send-Q   Local Address:Port                    Peer Address:Port                
+ESTAB      0      0        192.168.100.4:ssh                   192.168.100.10:54168                
+
+route:
+default via 192.168.100.1 dev enp0s3 
+192.168.100.0/24 dev enp0s3 proto kernel scope link src 192.168.100.4 
+
+Virtual hosts:
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+         port 80 namevhost 127.0.1.1 (/etc/apache2/sites-enabled/000-default.conf:1)
+         port 80 namevhost www.zona1.org (/etc/apache2/sites-enabled/zona1.conf:1)
+         port 80 namevhost www.zona2.org (/etc/apache2/sites-enabled/zona2.conf:1)
+
